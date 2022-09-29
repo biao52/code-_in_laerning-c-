@@ -1,28 +1,28 @@
-//#include<stdio.h>
-//int main(void)
-//{
-//	int a;
-//	printf("ÇëÊäÈë£º");
-//	scanf_s("%d", &a);
-//	if (a < 60)
-//	{  
-//		printf("²»¼°¸ñ");
-//	}
-//	else if (a >= 60 && a < 70)
-//	{
-//		printf("Á¼\n");
-//	}
-//	else if (a >= 70 && a < 80)
-//	{
-//		printf("ºÃ\n");
-//	}
-//	else if (a >= 80 && a < 90)
-//	{
-//		printf("ÓÅ\n");
-//	}
-//	else 
-//	{
-//		printf("ÍêÃÀ");
-//	}
-//	return 0;
-//}
+#include<stdio.h>
+int main(void)
+{
+	int a;
+	printf("è¯·è¾“å…¥ï¼š");
+	scanf_s("%d", &a);
+	if (a < 60)
+	{  
+		printf("ä¸åŠæ ¼");
+	}
+	else if (a >= 60 && a < 70)
+	{
+		printf("è‰¯\n");
+	}
+	else if (a >= 70 && a < 80)
+	{
+		printf("å¥½\n");
+   }
+	else if (a >= 80 && a < 90)
+	{
+		printf("ä¼˜\n");
+	}
+	else 
+	{
+		printf("å®Œç¾Ž");
+	}
+	return 0;
+}
