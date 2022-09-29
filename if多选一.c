@@ -15,7 +15,7 @@ int main(void)
 	else if (a >= 70 && a < 80)
 	{
 		printf("好\n");
-   }
+        }
 	else if (a >= 80 && a < 90)
 	{
 		printf("优\n");
