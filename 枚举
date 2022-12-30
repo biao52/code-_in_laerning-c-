@@ -1,0 +1,15 @@
+#include<stdio.h>
+enum color//枚举常量的值只能在初始化时修改（即为赋初值）在枚举声明之后就无法修改，为常量。
+{
+	red,
+	green=9,
+	blue,
+};
+int main()
+{
+	enum color c = blue;//此处的c必须是枚举三个中的一个
+	printf("%d\n", red);
+	printf("%d\n", green);
+	printf("%d\n", c);
+	return 0;
+}
