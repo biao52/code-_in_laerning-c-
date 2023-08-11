@@ -2,15 +2,15 @@
 //int main(void)
 //{
 //	int i = 0;
-//step://´Ë´¦ÎªÃ°ºÅ
-//	printf("ÇëÊäÈë\n");
+//step://æ­¤å¤„ä¸ºå†’å·
+//	printf("è¯·è¾“å…¥\n");
 //	i++;
 //	if (3 == i)
 //	{
 //		goto step2;
 //	}
-//	goto step;//´Ë´¦Îª·ÖºÅ
+//	goto step;//æ­¤å¤„ä¸ºåˆ†å·
 //step2:
-//	printf("ÒÑÍË³ö");
+//	printf("å·²é€€å‡º");
 //	return 0;
 //}
